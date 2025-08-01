@@ -110,7 +110,8 @@ public class TestLogin {
 		 String str=priceBar.getText();
 		 System.out.println(str);
 		
-		 Assert.assertEquals(str, "Price");
+		 Assert.assertEquals(str, "PRICE");
+		 driver.quit();
 	}
 
 }
