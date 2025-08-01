@@ -19,6 +19,7 @@ public class TestSerachPage {
 		
 		driver.navigate().to("https://www.myntra.com/");
 		driver.getTitle();
+		driver.manage().window().maximize();
 	}
 
 }
