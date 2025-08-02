@@ -111,6 +111,7 @@ public class TestLogin {
 		 System.out.println(str);
 		
 		 Assert.assertEquals(str, "PRICE");
+		 driver.close();
 		 driver.quit();
 	}
 
